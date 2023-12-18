@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "tstart": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -15,3 +15,4 @@
     "save": "^2.9.0"
   }
 }
+
