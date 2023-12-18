@@ -1,8 +1,9 @@
 const express = require ('express');
 const router = express.Router();
 
-router('/',(req, res, next) =>{
-    res.send('getting a list of all products'),
-})
+app.get('/', (req, res) => {
+    res.send('Welcome to the Kolovivi API');
+  });
+  
 
 module.exports = router;
