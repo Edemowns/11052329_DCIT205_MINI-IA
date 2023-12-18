@@ -26,19 +26,16 @@ const newPatient = {
   encounter_type: data.encounter_type
 
 };
-patient.push(newPatient);
-return res.status(201).json({ message : 'Patient registered succesfully'})
 
 
 
+const newEncounter = {
+  date_time: data.date_time,
+   encounter_type: data.encounter_type} ;
 
-app.get('/products', (req, res, next) =>{
-const ProductRoute = require('./routes/product.route');
-app.use('/products', ProductRoute);
-app.post
-  
-})
-
+patient.encounters.push(newEncounter);
+return res.status(201).json({message:'Encounter started succesfully'});
+gjkf
 
 app.listen(3000,
-  ()=> {console.log('server is running on port ${3000}');});
+  ()=> {console.log('server is running on port ${3000}');n});
